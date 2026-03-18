@@ -7,8 +7,8 @@
   font-style: normal;
   line-height: 1.5;
   scroll-behavior: smooth;
-  color-scheme: light dark;
-  color: #eae5ec;
+  color-scheme: light;
+  color: #1a1a1a;
   background-color: var(--backgroundColor);
 
   font-synthesis: none;
@@ -18,8 +18,8 @@
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  --accentColor: #5eead4;
-  --backgroundColor: #0a0e17;
+  --accentColor: #008080; /* Adjust accent if needed, testing teal here */
+  --backgroundColor: #ffffff;
   --vh: 100vh;
   --vh: 100svh;
 }
@@ -66,7 +66,7 @@ main {
 body {
   margin: 0;
   height: auto;
-  background-color: #050810;
+  background-color: #ffffff;
   flex-grow: 1;
   --cWidth: calc(100% - 30px);
   --cMaxWidth: 1920px;
@@ -153,7 +153,7 @@ body {
 .tech-label-item {
   font-size: 1.2rem;
   font-weight: 300;
-  color: #adacac;
+  color: #666666;
 }
 
 .tech-label-item span {

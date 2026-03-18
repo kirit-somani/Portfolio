@@ -6,7 +6,7 @@ import * as THREE from "three";
 const NODE_COUNT = 160;
 const SPHERE_RADIUS = 4.2;
 const CONNECTION_DIST = 1.6;
-const ACCENT = new THREE.Color("#22d3ee");
+const ACCENT = new THREE.Color("#008080");
 const DIM = new THREE.Color("#0e7490");
 
 // ─── Fibonacci sphere positions ──────────────────────────────────────────────
@@ -161,7 +161,7 @@ const LandingScene = () => {
         style={{ background: "transparent" }}
       >
         <ambientLight intensity={0.4} />
-        <pointLight position={[5, 5, 5]} intensity={1} color="#22d3ee" />
+        <pointLight position={[5, 5, 5]} intensity={1} color="#008080" />
         <NetworkGroup />
         <GlowOrb />
       </Canvas>
