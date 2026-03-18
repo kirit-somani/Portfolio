@@ -17,6 +17,26 @@
 .contact-flex {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.contact-footer {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-footer h5 {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.4;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
 }
 
 .contact-flex h4 {

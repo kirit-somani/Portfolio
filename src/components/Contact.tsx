@@ -44,14 +44,11 @@ const Contact = () => {
               Resume <MdArrowOutward />
             </a>
           </div>
-          <div className="contact-box">
-            <h2>
-              Designed and Developed <br /> by <span>Kirit Somani</span>
-            </h2>
-            <h5>
-              <MdCopyright /> 2025
-            </h5>
-          </div>
+        </div>
+        <div className="contact-footer">
+          <h5>
+            <MdCopyright /> 2025 Kirit Somani
+          </h5>
         </div>
       </div>
     </div>
