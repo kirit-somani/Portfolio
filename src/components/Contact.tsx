@@ -47,7 +47,7 @@ const Contact = () => {
         </div>
         <div className="contact-footer">
           <h5>
-            <MdCopyright /> 2025 Kirit Somani
+            <MdCopyright /> 2025 Rajesh Chityal
           </h5>
         </div>
       </div>
