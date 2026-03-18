@@ -24,7 +24,11 @@ export const LoadingProvider = ({ children }: PropsWithChildren) => {
     setIsLoading,
     setLoading,
   };
-  useEffect(() => {}, [loading]);
+
+  // Auto-complete loading since the 3D character is removed
+  useEffect(() => {
+    setLoading(100);
+  }, []);
 
   return (
     <LoadingContext.Provider value={value as LoadingType}>
