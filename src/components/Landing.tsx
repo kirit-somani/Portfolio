@@ -1,4 +1,7 @@
+import { lazy, Suspense } from "react";
 import "./styles/Landing.css";
+
+const LandingScene = lazy(() => import("./LandingScene"));
 
 const Landing = () => {
   return (
@@ -25,6 +28,9 @@ const Landing = () => {
             </h2>
           </div>
         </div>
+        <Suspense>
+          <LandingScene />
+        </Suspense>
       </div>
     </>
   );
