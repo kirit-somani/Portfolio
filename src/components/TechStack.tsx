@@ -13,17 +13,17 @@ import {
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/python.png",
-  "/images/sql.png",
-  "/images/java.png",
-  "/images/r.png",
-  "/images/pandas.png",
-  "/images/numpy.png",
-  "/images/sklearn.png",
-  "/images/powerbi.png",
-  "/images/tableau.png",
-  "/images/flask.png",
-  "/images/ml.png",
+  "images/python.png",
+  "images/sql.png",
+  "images/java.png",
+  "images/r.png",
+  "images/pandas.png",
+  "images/numpy.png",
+  "images/sklearn.png",
+  "images/powerbi.png",
+  "images/tableau.png",
+  "images/flask.png",
+  "images/ml.png",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
@@ -202,7 +202,7 @@ const TechStack = () => {
           ))}
         </Physics>
         <Environment
-          files="/models/char_enviorment.hdr"
+          files="models/char_enviorment.hdr"
           environmentIntensity={0.5}
           environmentRotation={[0, 4, 2]}
         />
