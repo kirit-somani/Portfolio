@@ -32,6 +32,13 @@ const projects = [
     image: "images/scheduler.png",
     link: "https://github.com/kirit-somani/smart-timetable-scheduler",
   },
+  {
+    title: "Financial Market Risk Analysis",
+    category: "FinTech / Data Science",
+    tools: "Python, Streamlit, GARCH Modeling, Plotly",
+    image: "images/financial_risk.png",
+    link: "https://github.com/kirit-somani/Financial-Market-Risk-Analysis-Using-Volatility-Modeling-and-Extended-Features-",
+  },
 ];
 
 const Work = () => {
