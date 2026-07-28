@@ -41,12 +41,12 @@ const MainContainer = () => {
             <About />
             <WhatIDo />
             <Career />
-            <Work />
             {isDesktopView && (
               <Suspense fallback={<div>Loading....</div>}>
                 <TechStack />
               </Suspense>
             )}
+            <Work />
             <Contact />
           </div>
         </div>

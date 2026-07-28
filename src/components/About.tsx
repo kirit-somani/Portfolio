@@ -20,23 +20,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className="about-skills">
-        <h3 className="title">Technical Stack</h3>
-        <div className="skills-grid">
-          <div className="skill-category">
-            <h4>Languages & Libraries</h4>
-            <p>Python, SQL, Java, R, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn</p>
-          </div>
-          <div className="skill-category">
-            <h4>Tools & Visualization</h4>
-            <p>Power BI, Tableau, Flask, MySQL, Git</p>
-          </div>
-          <div className="skill-category">
-            <h4>Specializations</h4>
-            <p>Machine Learning, Exploratory Data Analysis (EDA), Predictive Modeling</p>
-          </div>
-        </div>
-      </div>
+
     </div>
   );
 };
