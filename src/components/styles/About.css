@@ -105,7 +105,7 @@
 
 .skill-category p {
   font-size: 16px;
-  color: #666666;
+  color: var(--secondaryTextColor);
   line-height: 1.6;
 }
 

@@ -21,6 +21,7 @@
   --accentColor: #008080; /* Adjust accent if needed, testing teal here */
   --backgroundColor: #ffffff;
   --textColor: #1a1a1a;
+  --secondaryTextColor: #666666;
   --borderColor: #1a1a1a;
   --vh: 100vh;
   --vh: 100svh;
@@ -29,6 +30,7 @@
 [data-theme='dark'] {
   --backgroundColor: #121212;
   --textColor: #ffffff;
+  --secondaryTextColor: #a0a0a0;
   --borderColor: rgba(255, 255, 255, 0.2);
 }
 
@@ -161,7 +163,7 @@ body {
 .tech-label-item {
   font-size: 1.2rem;
   font-weight: 300;
-  color: #666666;
+  color: var(--secondaryTextColor);
 }
 
 .tech-label-item span {

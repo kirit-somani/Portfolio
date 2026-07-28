@@ -83,8 +83,8 @@
 
 .carousel-category {
   font-weight: 200;
-  color: #666666;
-  margin: 0;
+  color: var(--secondaryTextColor);
+  line-height: 1.6;
   font-size: 16px;
 }
 
@@ -102,7 +102,7 @@
 
 .carousel-tools p {
   font-weight: 200;
-  color: #666666;
+  color: var(--secondaryTextColor);
   margin: 6px 0 0;
   font-size: 15px;
 }
@@ -142,7 +142,7 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
-  background: rgba(0, 0, 0, 0.05);
+  background: transparent;
   border: 1px solid var(--borderColor);
   color: var(--textColor);
   width: 50px;
