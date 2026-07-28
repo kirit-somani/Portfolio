@@ -96,7 +96,7 @@
 
 .skill-category h4 {
   font-size: 18px;
-  color: #1a1a1a;
+  color: var(--textColor);
   margin-bottom: 10px;
   font-weight: 500;
   border-left: 3px solid var(--accentColor);

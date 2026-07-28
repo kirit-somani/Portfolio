@@ -3,12 +3,15 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
+import { useTheme } from "../context/ThemeProvider";
 import "./styles/Navbar.css";
 
 gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
 export let smoother: ScrollSmoother;
 
 const Navbar = () => {
+  const { theme, toggleTheme } = useTheme();
+
   useEffect(() => {
     smoother = ScrollSmoother.create({
       wrapper: "#smooth-wrapper",
@@ -67,6 +70,13 @@ const Navbar = () => {
             <a data-href="#contact" href="#contact">
               <HoverLinks text="CONTACT" />
             </a>
+          </li>
+          <li
+            onClick={toggleTheme}
+            style={{ cursor: "pointer", marginLeft: "10px", fontSize: "18px", display: "flex", alignItems: "center" }}
+            title="Toggle Theme"
+          >
+            {theme === "light" ? "🌙" : "☀️"}
           </li>
         </ul>
       </div>

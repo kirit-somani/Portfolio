@@ -3,15 +3,18 @@ import "./App.css";
 
 const MainContainer = lazy(() => import("./components/MainContainer"));
 import { LoadingProvider } from "./context/LoadingProvider";
+import { ThemeProvider } from "./context/ThemeProvider";
 
 const App = () => {
   return (
     <>
-      <LoadingProvider>
-        <Suspense>
-          <MainContainer />
-        </Suspense>
-      </LoadingProvider>
+      <ThemeProvider>
+        <LoadingProvider>
+          <Suspense>
+            <MainContainer />
+          </Suspense>
+        </LoadingProvider>
+      </ThemeProvider>
     </>
   );
 };

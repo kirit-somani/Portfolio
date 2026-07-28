@@ -2,7 +2,7 @@
   position: fixed;
   width: 100vw;
   height: var(--vh);
-  background-color: #f5f5f5;
+  background-color: var(--backgroundColor);
   z-index: 999999999;
   display: flex;
   place-items: center;
@@ -12,7 +12,7 @@
 .loading-button {
   padding: 20px 50px;
   border-radius: 100px;
-  background-color: #ffffff;
+  background-color: var(--backgroundColor);
   overflow: hidden;
   font-size: 18px;
   font-weight: 500;
@@ -51,7 +51,7 @@
   min-width: 0px;
   min-height: 0px;
   border-radius: 100px;
-  background-color: #ffffff;
+  background-color: var(--backgroundColor);
   overflow: hidden;
   transition: 0.8s ease-in-out;
   transition-delay: 0.2s;
@@ -100,8 +100,8 @@
 
 .loading-content {
   position: relative;
-  background-color: #ffffff;
-  color: #1a1a1a;
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
   width: 100%;
   overflow: hidden;
   transition: 0.6s;
@@ -116,7 +116,7 @@
 
 .loading-content2 {
   position: relative;
-  color: #1a1a1a;
+  color: var(--textColor);
   letter-spacing: 2px;
   text-transform: uppercase;
   width: var(--Lsize);
@@ -151,7 +151,7 @@
   transform: translate(100%, -50%);
   width: 15px;
   height: 25px;
-  background-color: black;
+  background-color: var(--textColor);
   animation: blink 1s linear infinite;
 }
 
@@ -289,7 +289,7 @@
   position: relative;
   width: 10px;
   height: 60px;
-  background-color: #1a1a1a;
+  background-color: var(--textColor);
   display: block;
 }
 
